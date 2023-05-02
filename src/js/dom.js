@@ -13,7 +13,12 @@ export const dom = {
     playBtn:document.querySelector('.video__play-btn'),
     videoPlaceholder:document.querySelector('.video__placeholder'),
     header:document.querySelector('.header'),
-    closeConnectModal:document.querySelector('.close-connect-modal')
+    closeConnectModal:document.querySelector('.close-connect-modal'),
+    links:document.querySelectorAll('.header__list-item a'),
+    
+    faqInner:document.querySelector('.faq__inner'),
+    faqItemSymbol:document.querySelector('.faq__item-symbol')
+
 }
 export const css = {
     menuActive:'header__nav--active',
@@ -22,7 +27,11 @@ export const css = {
     paymentModalActive:'payment-modal--active',
     connectModalActive:'connect-modal--active',
     headerFixed:'header--fixed',
-    headerFixedActive:'header--fixed-active',
+    headerTransition:'header--transition',
+    headerActive:'header--active',
+    faqItemTextActive:'faq__item-text--active',
+    faqItemInnerActive:'faq__item-inner--active',
+    faqItemActive :'faq__item--active',
     none:'none',
     block:'block'
 }
